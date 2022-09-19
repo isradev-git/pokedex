@@ -1,12 +1,12 @@
 const _ = (selector) => document.querySelector(selector);
 
-const pokeCard = _("[data-poke-card");
-const pokeName = _("[data-poke-name");
-const pokeImg = _("[data-poke-img");
-const pokeImgContainer = _("[data-poke-img-container");
-const pokeId = _("[data-poke-id");
-const pokeTypes = _("[data-poke-types");
-const pokeStats = _("[data-poke-stats");
+const pokeCard = _("[data-poke-card]");
+const pokeName = _("[data-poke-name]");
+const pokeImg = _("[data-poke-img]");
+const pokeImgContainer = _("[data-poke-img-container]");
+const pokeId = _("[data-poke-id]");
+const pokeTypes = _("[data-poke-types]");
+const pokeStats = _("[data-poke-stats]");
 
 const typeColors = {
     electric: "#FFEA70",
